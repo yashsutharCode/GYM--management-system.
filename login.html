@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>HTML Login Form</title>
+      <link rel="stylesheet" href="login.css">
+      <link rel="stylesheet" href="protein.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div>
+            <h2>WorkFit.fitness</h2>
+        </div>
+        <div id="elements">
+       <li>  <a href="gym.html">Home</a></li>
+            <li><a href="protein.html">Suplement</a></li>
+            <li><a href="diet.html">Diet</a></li>
+            <li><a href="clothes.html">Clothes</a></li>
+            <li><a href="login.html"><img id="admin" src="OIP (2).jpeg" alt=""></a></li>
+        </div>
+    </nav>
+      <div class="main">
+            <h1>ADMIN</h1>
+            <h3>Enter your login credentials</h3>
+            <form action="">
+                  <label for="first">
+                        Username:
+                  </label>
+                  <input type="text" 
+                         id="first" 
+                         name="first" 
+                         placeholder="Enter your Username" required>
+
+                  <label for="password">
+                        Password:
+                  </label>
+                  <input type="password"
+                         id="password" 
+                         name="password"
+                         placeholder="Enter your Password" required>
+
+                  <div class="wrap">
+                        <button type="submit"
+                                onclick="solve()">
+                             <a href="crudoperation.html">Submit</a> 
+                        </button>
+                  </div>
+            </form>
+            <p>Not registered?
+                  <a href="#"
+                     style="text-decoration: none;">
+                        Create an account
+                  </a>
+            </p>
+      </div>
+</body>
+
+</html>

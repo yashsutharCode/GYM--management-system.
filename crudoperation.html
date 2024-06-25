@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>crud</title>
+      <link rel="stylesheet" href="protein.css">
+      <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+      <nav class="navigation">
+            <div>
+                  <h2>WorkFit.fitness</h2>
+            </div>
+            <div id="elements">
+                  <li> <a href="gym.html">Home</a></li>
+                  <li><a href="protein.html">Suplement</a></li>
+                  <li><a href="diet.html">Diet</a></li>
+                  <li><a href="clothes.html">Clothes</a></li>
+                  <li><a href="login.html"><img id="admin" src="OIP (2).jpeg" alt=""></a></li>
+            </div>
+      </nav>
+
+      <form class="userForm1" id="userForm">
+            <br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+            </select><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phoneno:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <div class="om">
+                  <button id="insert" type="button">insert</button>
+                  <button id="read" type="button">read</button>
+                  <button id="update" type="button">update</button>
+                  <button id="delete" type="button">delete</button>
+
+            </div>
+      </form>
+
+      
+<script src="config.js"></script>
+<script src="crudoperation.js"></script>
+<script src="http://www.gstatic.com/firebasejs/firebase.js"></script>
+</body>
+
+</html>
